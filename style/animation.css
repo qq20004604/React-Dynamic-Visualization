@@ -19,6 +19,7 @@
     left: 98px;
     width: 2px;
     background-color: #000;
+    border-radius: 1px;
 }
 
 /* 单行容器，包含【名字】【数字】【显示的数据】*/
@@ -30,7 +31,7 @@
     width: 100%;
     height: 40px;
     line-height: 40px;
-    transition: top 0.5s, opacity 1.5s;
+    transition: top 1.2s linear, opacity 1.5s;
 }
 
 /* 名字 */
@@ -60,6 +61,16 @@
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
     box-shadow: inset -5px 0 20px 0 rgba(0, 0, 0, .35);
+    overflow: hidden;
+}
+
+.item-text {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+    color: #fff;
 }
 
 .count {
